@@ -1,9 +1,48 @@
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Arial,sans-serif;background:#111;color:#fff}
-header{background:#000;text-align:center;padding:25px}
+body{
+    font-family:Arial,sans-serif;
+    color:#fff;
+
+    background:
+    radial-gradient(circle at top,#2a2a2a 0%,#151515 40%,#0d0d0d 75%,#050505 100%);
+
+    background-attachment:fixed;
+}
+header{
+    background:
+    linear-gradient(
+        to bottom,
+        #2a2a2a 0%,
+        #111111 45%,
+        #000000 100%
+    );
+
+    text-align:center;
+    padding:25px;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,.45);
+}
 .logo{width:160px;margin-bottom:10px}
 header h1{color:#e30613}
-nav{display:flex;justify-content:center;gap:20px;background:#e30613;padding:15px;flex-wrap:wrap}
+nav{
+display:flex;
+justify-content:center;
+gap:20px;
+padding:15px;
+flex-wrap:wrap;
+
+background:
+linear-gradient(
+180deg,
+#ff1b1b,
+#d30000,
+#9f0000
+);
+
+box-shadow:
+0 3px 12px rgba(0,0,0,.35);
+}
 nav a{color:#fff;text-decoration:none;font-weight:bold}
 nav a:hover{color:#000}
 .hero{
@@ -22,6 +61,13 @@ nav a:hover{color:#000}
     width:100%;
 }
 .chi-siamo{padding:50px 20px;text-align:center}
+.chi-perche p{
+    max-width:900px;
+    margin:20px auto;
+    font-size:16px;
+    line-height:1.8;
+    text-align:center;
+}
 section h2{
     text-align:center;
     color:#e30613;
@@ -33,6 +79,11 @@ section h2{
 .card:hover{transform:translateY(-8px)}
 .card img{width:100%;height:170px;object-fit:cover}
 .card h3{padding:18px;color:#e30613}
+.card p{
+    font-size:15px;
+    line-height:1.5;
+    padding:0 18px 18px;
+}
 footer{background:#000;text-align:center;padding:20px;margin-top:40px}
 .prossimi-eventi{
     padding:70px 20px;
@@ -113,8 +164,8 @@ footer{background:#000;text-align:center;padding:20px;margin-top:40px}
 }
 
 .riders-info p{
-    font-size:20px;
-    line-height:1.8;
+    font-size:16px;
+    line-height:1.7;
     margin-bottom:20px;
 }.menu {
     display: flex;
@@ -227,9 +278,18 @@ footer{background:#000;text-align:center;padding:20px;margin-top:40px}
 }
 
 .chi-perche .card p {
-    font-size: 16px;
-    line-height: 1.5;
-}.motto{
+    font-size:16px;
+    line-height:1.5;
+}
+
+.chi-perche > p{
+    max-width:900px;
+    margin:20px auto;
+    font-size:16px;
+    line-height:1.7;
+    text-align:center;
+}
+.motto{
     text-align:center;
     padding:60px 20px;
     background:#111;
