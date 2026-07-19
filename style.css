@@ -1,0 +1,253 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#111;color:#fff}
+header{background:#000;text-align:center;padding:25px}
+.logo{width:160px;margin-bottom:10px}
+header h1{color:#e30613}
+nav{display:flex;justify-content:center;gap:20px;background:#e30613;padding:15px;flex-wrap:wrap}
+nav a{color:#fff;text-decoration:none;font-weight:bold}
+nav a:hover{color:#000}
+.hero{
+    position:relative;
+    height:550px;
+    background:url('../images/Home/Bandiera.jpg') center center / contain no-repeat;
+    background-color:#000;
+}
+
+.hero-text{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:rgba(0,0,0,.35)}
+.hero-text h2{font-size:48px}
+.hero-text p{
+    font-size:22px;
+    margin-top:10px;
+    text-align:center;
+    width:100%;
+}
+.chi-siamo{padding:50px 20px;text-align:center}
+section h2{
+    text-align:center;
+    color:#e30613;
+    font-size:40px;
+    margin-bottom:40px;
+}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:25px;padding:40px;max-width:1200px;margin:auto}
+.card{background:#1b1b1b;border:2px solid #e30613;border-radius:12px;overflow:hidden;transition:.3s}
+.card:hover{transform:translateY(-8px)}
+.card img{width:100%;height:170px;object-fit:cover}
+.card h3{padding:18px;color:#e30613}
+.card p{
+    font-size:15px;
+    line-height:1.5;
+    padding:0 18px 18px;
+}
+footer{background:#000;text-align:center;padding:20px;margin-top:40px}
+.prossimi-eventi{
+    padding:70px 20px;
+    background:#0d0d0d;
+    text-align:center;
+}
+
+.prossimi-eventi h2{
+    color:#e30613;
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.eventi-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:25px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.evento-card{
+    background:#1b1b1b;
+    border:2px solid #e30613;
+    border-radius:12px;
+    padding:30px;
+}
+
+.evento-card h3{
+    color:#e30613;
+    margin-bottom:20px;
+    font-size:24px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+
+.btn-evento{
+    display:inline-block;
+    padding:15px 30px;
+    background:#e30613;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.btn-evento:hover{
+    background:white;
+    color:#e30613;
+}.riders-home{
+    max-width:1200px;
+    margin:80px auto;
+    padding:0 20px;
+    display:flex;
+    align-items:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.riders-img{
+    flex:1;
+}
+
+.riders-img img{
+    width:100%;
+    border-radius:15px;
+    border:3px solid #e30613;
+}
+
+.riders-info{
+    flex:1;
+}
+
+.riders-info h2{
+    color:#e30613;
+    font-size:40px;
+    margin-bottom:25px;
+}
+
+.riders-info p{
+    font-size:20px;
+    line-height:1.8;
+    margin-bottom:20px;
+}.menu {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+    background: #111;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #e30613;
+}.immagine-riders {
+    width: 70%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    border-radius: 15px;
+}.hero-riders{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.hero-riders .immagine-riders{
+    width:70%;
+    max-width:900px;
+    height:auto;
+    display:block;
+    margin:0 auto;
+    border-radius:15px;
+}
+
+.hero-riders .hero-text{
+    position:relative;
+    background:none;
+    margin-top:25px;
+}.servizi-riders {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    padding:50px 20px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.card-riders {
+    background:#1b1b1b;
+    border:2px solid #e30613;
+    border-radius:12px;
+    padding:25px;
+    text-align:center;
+    transition:.3s;
+}
+
+.card-riders:hover {
+    transform:translateY(-8px);
+}
+
+.card-riders h3 {
+    color:#e30613;
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+.card-riders p {
+    line-height:1.6;
+}.lista-eventi {
+    max-width:1000px;
+    margin:40px auto;
+    padding:0 20px;
+}
+
+.evento-card {
+    background:#1b1b1b;
+    border:2px solid #e30613;
+    border-radius:12px;
+    padding:30px;
+    text-align:center;
+}
+
+.evento-card h3 {
+    color:#e30613;
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.evento-card p {
+    font-size:18px;
+    line-height:1.6;
+}.evento-card img {
+    width:100%;
+    max-width:700px;
+    height:auto;
+    display:block;
+    margin:0 auto 25px;
+    border-radius:12px;
+}/* Ridimensionamento card Tesseramento */
+
+
+.chi-perche .card {
+    max-width: 300px;
+    margin: 15px auto;
+}
+
+.chi-perche .card p {
+    font-size: 16px;
+    line-height: 1.5;
+}.motto{
+    text-align:center;
+    padding:60px 20px;
+    background:#111;
+}
+
+.motto p{
+    font-size:34px;
+    font-style:italic;
+    color:#e30613;
+    font-weight:bold;
+    letter-spacing:1px;
+
+}.contatti
+    width:100%;
+    max-width:1000px;
+    margin:0 auto;
