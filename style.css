@@ -348,4 +348,18 @@ footer{background:#000;text-align:center;padding:20px;margin-top:40px}
     font-size: 14px;
     color: #ffffff;
     letter-spacing: 2px;
+}/* Link delle card */
+.card-link{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.card-link h3,
+.card-link p{
+    color: #ffffff;
+}
+
+.card-link:hover{
+    text-decoration: none;
 }
