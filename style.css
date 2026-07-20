@@ -355,7 +355,10 @@ footer{background:#000;text-align:center;padding:20px;margin-top:40px}
     display: block;
 }
 
-.card-link h3,
+.card-link h3{
+    color: #e30613;
+}
+
 .card-link p{
     color: #ffffff;
 }
