@@ -306,3 +306,46 @@ footer{background:#000;text-align:center;padding:20px;margin-top:40px}
     width:100%;
     max-width:1000px;
     margin:0 auto;
+.visitor-counter {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 8px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.visitor-counter span {
+    display: block;
+    font-size: 10px;
+    color: #d4af37;
+}
+
+.visitor-counter strong {
+    display: block;
+    font-size: 16px;
+    color: #ffffff;
+}.visitor-counter {
+    display: block;
+    width: fit-content;
+    margin: 25px auto;
+    padding: 8px 18px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.visitor-counter span {
+    display: block;
+    font-size: 10px;
+    color: #d4af37;
+    letter-spacing: 2px;
+}
+
+.visitor-counter strong {
+    display: block;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
