@@ -355,9 +355,12 @@ footer{background:#000;text-align:center;padding:20px;margin-top:40px}
     display: block;
 }
 
-.card-link h3,
-.card-link p{
-    color: #ffffff;
+.card-link .evento-card h3{
+    color:#e30613 !important;
+}
+
+.card-link .evento-card p{
+    color:#ffffff !important;
 }
 
 .card-link:hover{
